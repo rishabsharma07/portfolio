@@ -31,6 +31,7 @@ import agrioraclephoto from './assets/work_logo/agrioraclephoto.png';
 import geoglancephoto from './assets/work_logo/geoglancephoto.png';
 import passiqphoto from './assets/work_logo/passiqphoto.png';
 import emsphoto from './assets/work_logo/emsphoto.png';
+import portfolio from './assets/work_logo/portfolio.png';
 
 export const SkillsInfo = [
   {
@@ -149,5 +150,15 @@ export const SkillsInfo = [
       tags: ["HTML", "TailwindCSS", "JavaScript", "React JS"],
       github: "https://github.com/rishabsharma07/ems",
       webapp: "https://ems-ruby-nu.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "Portfolio Website",
+      description:
+        "My portfolio website",
+      image: portfolio,
+      tags: ["HTML", "TailwindCSS", "JavaScript", "React JS", "EmailJS"],
+      github: "https://github.com/rishabsharma07/portfolio",
+      webapp: "https://rishabsharma.vercel.app/",
     },
   ]
